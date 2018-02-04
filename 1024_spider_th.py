@@ -21,7 +21,7 @@ try:
     flag=1
     while flag<=270:
         base_url='https://t66y.com/'
-        page_url='https://t66y.com/thread0806.php?fid=8&search=&page='+str(flag)
+        page_url='https://t66y.com/thread0806.php?fid=16&search=&page='+str(flag)
         get=requests.get(page_url)
         article_url=re.findall(r'<h3><a href="(.*)" target="_blank" id="">(?!<.*>).*</a></h3>',str(get.content,'gbk',errors='ignore'))
         for url in article_url:
