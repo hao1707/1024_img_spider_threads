@@ -4,6 +4,10 @@
 ```bash
 pip3 install requests
 ```
+
+感谢原作者。。。Fork过来的。。。改成了达盖尔
+
+
 # 使用方法：
 ```bash
 python3 1024_spider_th.py
